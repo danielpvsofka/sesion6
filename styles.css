@@ -1,0 +1,15 @@
+.articulos {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	gap: 80px;
+}
+
+@media (max-width: 399px) {
+	.articulos {
+		justify-content: flex-start;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+	}
+}
